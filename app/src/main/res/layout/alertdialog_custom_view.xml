@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/dialog_rl"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+tools:context=".MainActivity"
+android:background="#ED5560"
+    >
+<TextView
+    android:id="@+id/dialog_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ingresa nuevo curso"
+    android:padding="5dp"
+    android:background="#ED5560"
+    android:textSize="15dp"
+    />
+<EditText
+    android:id="@+id/et_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="name"
+    android:textSize="15dp"
+    android:layout_below="@id/dialog_title"
+    android:background="#ffffff"
+    />
+<Button
+    android:id="@+id/dialog_positive_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Crear"
+    android:layout_alignParentRight="true"
+    android:background="#ED5560"
+    android:layout_below="@id/et_name"
+    />
+<Button
+    android:id="@+id/dialog_negative_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Anular"
+    android:layout_toLeftOf="@id/dialog_positive_btn"
+    android:background="#ED5560"
+    android:layout_marginRight="3dp"
+    android:layout_alignBaseline="@id/dialog_positive_btn"
+    />
+</RelativeLayout>

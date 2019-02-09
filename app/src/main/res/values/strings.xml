@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyDictionary</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Nombre cursos -->
+    <string name="English">Ingles</string>
+    <string name="France">Frances</string>
+    <string name="Math">Matematica</string>
+
+
+</resources>
